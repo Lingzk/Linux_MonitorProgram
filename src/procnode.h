@@ -1,3 +1,6 @@
+#ifndef __PROC_NODE__
+#define __PROC_NODE__
+// 防止重复定义
 
 //保存单个进程的详细信息
 typedef struct proc_node{
@@ -13,3 +16,6 @@ typedef struct proc_node{
     double proc_cpu_rate;        //CPU使用率
     double proc_mem_rate;        //内存使用率
 }proc_node; 
+
+
+#endif
